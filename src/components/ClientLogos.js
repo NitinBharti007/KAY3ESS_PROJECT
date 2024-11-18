@@ -56,9 +56,9 @@ const ClientLogosCarousel = () => {
 
   return (
     <div className="w-full py-8 bg-gradient-to-r from-gray-100 via-white to-gray-100">
-      <h2 className="text-4xl font-bold text-center text-gray-800 mb-6">
-        Our Esteemed Clients
-      </h2>
+      <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-800 mb-12 tracking-wide">
+      Our <span className="text-blue-600">Esteemed</span> Client
+    </h2>
       <div className="mx-auto">
         <Slider {...settings}>
           {logos.map((logo, index) => (

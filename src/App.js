@@ -7,6 +7,7 @@ import ProjectsSection from './components/ProjectsSection';
 import ClientLogos from './components/ClientLogos';
 import Testimonials from './components/Testimonials';
 import Footer from './components/Footer';
+import WhatsAppButton from './components/WhatsAppButton';
 
 import About from './pages/About';
 import Services from './pages/Services';
@@ -25,6 +26,7 @@ function App() {
             <ClientLogos />
             <Testimonials />
             <Footer />
+            <WhatsAppButton />
           </>
         } />
         <Route path="/about" element={<About />} />
