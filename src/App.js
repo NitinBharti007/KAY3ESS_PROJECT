@@ -16,16 +16,18 @@ import Contact from './pages/Contact';
 function App() {
   return (
     <Router>
+      {/* Navbar will always be visible */}
       <Navbar />
+      
+      {/* Routes for switching between pages */}
       <Routes>
         <Route path="/" element={
           <>
-            <SlidingBanner/>
+            <SlidingBanner />
             <ServicesSection />
             <ProjectsSection />
             <ClientLogos />
             <Testimonials />
-            <Footer />
             <WhatsAppButton />
           </>
         } />
@@ -33,6 +35,9 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
+
+      {/* Footer will always be visible */}
+      <Footer />
     </Router>
   );
 }
