@@ -31,7 +31,25 @@ const sections = {
   qualityPolicy:
     "Our quality policy focuses on meeting customer expectations through continuous improvement and operational excellence.",
   hsePolicy:
-    "We are dedicated to maintaining a safe, healthy, and environmentally conscious workplace for all our stakeholders."
+    "We are dedicated to maintaining a safe, healthy, and environmentally conscious workplace for all our stakeholders.",
+    team: [
+      {
+        name: "Shashi Bhushan Negi",
+        role: "Managing Director",
+        image: "/Dir.png",
+      },
+      {
+        name: "Shivani Rana",
+        role: "COO",
+        image: "/Shivani.jpeg", // Replace with actual image URL
+      },
+      {
+        name: "Sam Wilson",
+        role: "Lead Developer",
+        image: "https://via.placeholder.com/150", // Replace with actual image URL
+      },
+      // Add more team members as needed
+    ]
 };
 
 // Component
@@ -99,6 +117,37 @@ const AboutPage = () => (
             transition={{ duration: 0.3 }}
           >
             <p>{item}</p>
+          </motion.div>
+        ))}
+      </div>
+    </section>
+
+    {/* Team Section */}
+    <section className="py-16 px-6 lg:px-24 bg-gray-100">
+      <motion.h2
+        className="text-4xl font-bold text-center mb-8"
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 1 }}
+      >
+        Meet Our Team
+      </motion.h2>
+      <div className="grid gap-6 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
+        {sections.team.map((member, index) => (
+          <motion.div
+            key={index}
+            className="p-6 bg-white rounded-lg shadow-md text-center"
+            initial={{ opacity: 0, y: 20 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.5, delay: index * 0.2 }}
+          >
+            <img
+              src={member.image}
+              alt={member.name}
+              className="w-32 h-32 mx-auto rounded-full mb-4"
+            />
+            <h3 className="text-xl font-semibold">{member.name}</h3>
+            <p className="text-gray-600">{member.role}</p>
           </motion.div>
         ))}
       </div>
