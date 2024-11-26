@@ -62,15 +62,15 @@ const Contact = () => {
           <div className="space-y-4 text-gray-800">
             <div className="flex items-center space-x-3">
               <span className="text-blue-600">📍</span>
-              <p>123 Main Street, Noida, Sector 62</p>
+              <p>Plot No.17 FIE, Patparganj Industrial Area, Delhi – 110092</p>
             </div>
             <div className="flex items-center space-x-3">
               <span className="text-blue-600">📞</span>
-              <p>+91-12345-67890</p>
+              <p>+91-120-4324817</p>
             </div>
             <div className="flex items-center space-x-3">
               <span className="text-blue-600">📧</span>
-              <p>contact@company.com</p>
+              <p>contact@kay3ess.com</p>
             </div>
           </div>
         </div>

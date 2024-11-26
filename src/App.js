@@ -1,5 +1,5 @@
-import React from 'react';
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import React, { useEffect } from 'react';
+import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import SlidingBanner from './components/SlidingBanner';
 import ServicesSection from './components/ServicesSection';
@@ -13,9 +13,23 @@ import About from './pages/About';
 import Services from './pages/Services';
 import Contact from './pages/Contact';
 
+// ScrollToTop Component
+const ScrollToTop = () => {
+  const { pathname } = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [pathname]);
+
+  return null;
+};
+
 function App() {
   return (
     <Router>
+      {/* Scroll to Top on Route Change */}
+      <ScrollToTop />
+
       {/* Navbar will always be visible */}
       <Navbar />
       

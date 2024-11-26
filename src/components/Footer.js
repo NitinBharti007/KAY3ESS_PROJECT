@@ -22,7 +22,7 @@ const Footer = () => (
           <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
           <ul>
             <li className="mb-2">
-              <Link to="/home" className="hover:text-gray-300 transition-all">Home</Link> {/* Use Link here */}
+              <Link to="/" className="hover:text-gray-300 transition-all">Home</Link> {/* Use Link here */}
             </li>
             <li className="mb-2">
               <Link to="/services" className="hover:text-gray-300 transition-all">Services</Link> {/* Use Link here */}
@@ -40,10 +40,10 @@ const Footer = () => (
         <div>
           <h3 className="text-xl font-semibold mb-4">Contact Us</h3>
           <p className="text-sm mb-4">
-            Email: <a href="mailto:info@kay3ess.com" className="hover:text-gray-300">info@kay3ess.com</a>
+            Email: <a href="mailto:info@kay3ess.com" className="hover:text-gray-300">contact@kay3ess.com</a>
           </p>
           <p className="text-sm">
-            Phone: <a href="tel:+123456789" className="hover:text-gray-300">+1 234 567 89</a>
+            Phone: <a href="tel:+91-120-4324817" className="hover:text-gray-300">+91-120-4324817</a>
           </p>
         </div>
       </div>
