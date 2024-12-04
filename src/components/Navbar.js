@@ -15,11 +15,13 @@ const Navbar = () => {
       <div className="container mx-auto px-6 py-4 flex justify-between items-center relative">
         {/* Logo (Replace with Image) */}
         <div className="flex items-center">
+          <Link to={"/"}>
           <img
             src="logo.png" // Replace with your logo image path
             alt="Logo"
             className="w-45 h-10 cursor-pointer"
           />
+          </Link>
         </div>
 
         {/* Desktop Links */}

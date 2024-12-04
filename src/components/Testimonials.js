@@ -49,7 +49,7 @@ const Testimonials = () => {
 
   return (
     <section className="py-16 bg-gradient-to-r from-blue-50 via-white to-blue text-center">
-      <div className="max-w-screen-xl mx-auto px-6">
+      <div className="max-w-screen-xl mx-auto px-7">
         {/* Title with Animation */}
         <h2 className="text-3xl lg:text-4xl font-bold text-center text-gray-800 mb-12 tracking-wide">What Our <span className="text-blue-600">Clients</span> Say
     </h2>
