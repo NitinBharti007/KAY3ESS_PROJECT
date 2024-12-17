@@ -1,14 +1,13 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 
-// Data
 const sections = {
   hero: {
     title: "About Us",
     subtitle: "Innovating for a Better Tomorrow",
     description:
       "We are committed to excellence, innovation, and sustainability in every aspect of our business. Learn about our journey, values, and vision.",
-    backgroundImage: "https://storage.needpix.com/rsynced_images/banner-1989514_1280.png", // Replace with an actual image URL
+    backgroundImage: "https://storage.needpix.com/rsynced_images/banner-1989514_1280.png",
   },
   vision: "To be a global leader in delivering innovative solutions for a sustainable future.",
   mission: [
@@ -41,18 +40,16 @@ const sections = {
       {
         name: "Shivani Rana",
         role: "COO",
-        image: "/Shivani.jpeg", // Replace with actual image URL
+        image: "/Shivani.jpeg",
       },
       {
         name: "Sam Wilson",
         role: "Lead Developer",
-        image: "https://via.placeholder.com/150", // Replace with actual image URL
+        image: "https://via.placeholder.com/150", 
       },
-      // Add more team members as needed
     ]
 };
 
-// Component
 const AboutPage = () => (
   <div className="bg-gray-50 text-gray-800 font-sans">
 

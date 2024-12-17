@@ -27,13 +27,8 @@ const ScrollToTop = () => {
 function App() {
   return (
     <Router>
-      {/* Scroll to Top on Route Change */}
       <ScrollToTop />
-
-      {/* Navbar will always be visible */}
       <Navbar />
-      
-      {/* Routes for switching between pages */}
       <Routes>
         <Route path="/" element={
           <>
@@ -49,8 +44,6 @@ function App() {
         <Route path="/services" element={<Services />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-
-      {/* Footer will always be visible */}
       <Footer />
     </Router>
   );

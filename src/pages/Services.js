@@ -1,4 +1,3 @@
-// src/components/ServicesPage.js
 import React from "react";
 import { FaBatteryFull, FaPlug, FaWrench, FaRegLightbulb } from "react-icons/fa";
 import { motion } from "framer-motion";

@@ -7,7 +7,6 @@ const Contact = () => {
     event.preventDefault();
     const formData = new FormData(event.target);
 
-    // Add your Web3Forms access key
     formData.append("access_key", "YOUR_ACCESS_KEY_HERE");
 
     const object = Object.fromEntries(formData);
