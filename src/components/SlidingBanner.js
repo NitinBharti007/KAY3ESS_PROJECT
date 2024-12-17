@@ -12,8 +12,8 @@ const SlidingBanner = () => (
       showThumbs={false}
       showIndicators={false}
       showStatus={false}
-      transitionTime={1000} // Smooth transition between slides
-      interval={5000} // Duration of each slide
+      transitionTime={1000}
+      interval={5000}
     >
       {/* Slide 1 */}
       <div className="relative">

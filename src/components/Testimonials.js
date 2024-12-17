@@ -2,7 +2,6 @@
 import React from "react";
 import Slider from "react-slick";
 
-// Testimonials data
 const testimonials = [
   {
     name: "Jane Doe",
@@ -73,8 +72,6 @@ const Testimonials = () => {
             </div>
           ))}
         </Slider>
-
-        
       </div>
     </section>
   );

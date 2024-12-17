@@ -76,7 +76,7 @@ const ServicesSection = () => (
             className="text-xl lg:text-2xl font-semibold text-center text-gray-800 mb-6"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
-            transition={{ duration: 0.6, delay: idx * 0.3 }} // Smoother fade-in for title
+            transition={{ duration: 0.6, delay: idx * 0.3 }}
           >
             {service.title}
           </motion.h3>
@@ -85,7 +85,7 @@ const ServicesSection = () => (
               <motion.li
                 key={index}
                 className="text-lg text-gray-700 hover:text-blue-600 cursor-pointer transition duration-300 ease-in-out"
-                whileHover={{ scale: 1.05, color: "#1D4ED8", letterSpacing: "0.5px" }} // Smooth hover effect for items
+                whileHover={{ scale: 1.05, color: "#1D4ED8", letterSpacing: "0.5px" }}
                 transition={{ duration: 0.3 }}
               >
                 {item.name}

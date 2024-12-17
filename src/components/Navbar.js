@@ -17,7 +17,7 @@ const Navbar = () => {
         <div className="flex items-center">
           <Link to={"/"}>
           <img
-            src="logo.png" // Replace with your logo image path
+            src="logo.png"
             alt="Logo"
             className="w-45 h-10 cursor-pointer"
           />
