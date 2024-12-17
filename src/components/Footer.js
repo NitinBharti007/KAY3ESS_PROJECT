@@ -1,6 +1,6 @@
 // src/components/Footer.js
 import React from "react";
-import { Link } from "react-router-dom";  // Import Link from React Router
+import { Link } from "react-router-dom";
 import { FaFacebook, FaTwitter, FaLinkedin, FaInstagram } from "react-icons/fa";
 
 const Footer = () => (
@@ -22,16 +22,16 @@ const Footer = () => (
           <h3 className="text-xl font-semibold mb-4">Quick Links</h3>
           <ul>
             <li className="mb-2">
-              <Link to="/" className="hover:text-gray-300 transition-all">Home</Link> {/* Use Link here */}
+              <Link to="/" className="hover:text-gray-300 transition-all">Home</Link> 
             </li>
             <li className="mb-2">
-              <Link to="/services" className="hover:text-gray-300 transition-all">Services</Link> {/* Use Link here */}
+              <Link to="/services" className="hover:text-gray-300 transition-all">Services</Link>
             </li>
             <li className="mb-2">
-              <Link to="/projects" className="hover:text-gray-300 transition-all">Privacy & Policy</Link> {/* Use Link here */}
+              <Link to="/projects" className="hover:text-gray-300 transition-all">Privacy & Policy</Link>
             </li>
             <li className="mb-2">
-              <Link to="/contact" className="hover:text-gray-300 transition-all">Contact</Link> {/* Use Link here */}
+              <Link to="/contact" className="hover:text-gray-300 transition-all">Contact</Link>
             </li>
           </ul>
         </div>
